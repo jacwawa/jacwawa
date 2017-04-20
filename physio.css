@@ -1,0 +1,99 @@
+@charset "utf-8";
+#conash3D0, #ieoxAdTag, #oxAdTag {
+	height: 0px;
+	top: -1000px;
+	display: none;
+}
+body {
+	font-family: Lora, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	background: #fff;
+	margin: 20px 0;
+	padding: 0 0 20px 0;
+	color: #333;
+	text-align: center;
+}
+p, form {
+	font-family: Lora, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	margin: 0 0 24px 0;
+	font-size: 18px;
+	line-height: 24px;
+}
+a, a:visited {
+	color: #ff3300;
+	text-decoration: none;
+}
+a:hover {
+	color: #ff3300;
+	text-decoration: underline;
+}
+#bar {
+	position: fixed;
+	top: 50px;
+	left: 0px;
+	width: 100%;
+	z-index: -1;
+}
+#bar-top {
+	position: relative;
+	background: #f32313;
+	height: 3px;
+	width: 100%;
+	margin: 0px 0 5px 0;
+	z-index: -1;
+}
+#bar-mid {
+	position: relative;
+	background: #f32313;
+	height: 120px;
+	width: 100%;
+	margin: 0 0 5px 0;
+	z-index: -1;
+}
+#bar-low {
+	position: relative;
+	background: #f32313;
+	height: 3px;
+	width: 100%;
+	z-index: -1;
+}
+#container {
+	background: #eee;
+	width: 768px;
+	max-width: 90%;
+	margin: 10px auto;
+	border: 3px #333 solid;
+	padding: 4px;
+}
+#inner {
+	margin: 0 auto;
+	padding: 50px 10px 50px 10px;
+	border: 1px #333 solid;
+	background: #fff;
+	text-align: center;
+}
+#pamphlets {
+	margin: 40px 0 0 0;
+}
+h3 {
+	font-weight: normal;
+}
+h2 {
+	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-size: 24px;
+	margin: 0 0 35px;
+	text-transform: uppercase;
+}
+.pamphNum {
+	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	margin: 15px auto;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #333;
+	width: 20px;
+}
+.pamphItem {
+	clear: both;
+	margin: 0 0 40px 0;
+}
